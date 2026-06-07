@@ -1,4 +1,3 @@
-/* RESET & BASE */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +17,7 @@ h1, h2, h3, .logo, .footer-logo {
 
 a { text-decoration: none; }
 
-/* NAVBAR dengan LOGO */
+/* NAVBAR */
 .navbar {
     position: fixed;
     top: 0;
@@ -140,7 +139,7 @@ a { text-decoration: none; }
     margin-bottom: 3rem;
 }
 
-/* HEADER BANNER */
+/* BANNER */
 .section-banner {
     background: linear-gradient(135deg, #8A9A5B 0%, #5C6B4F 100%);
     color: white;
@@ -211,7 +210,7 @@ a { text-decoration: none; }
 .timeline-icon { font-size: 3rem; margin-bottom: 1rem; }
 .timeline-item h3 { color: #5C6B4F; margin-bottom: 0.5rem; }
 
-/* BENEFITS GRID */
+/* BENEFITS */
 .benefits-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
